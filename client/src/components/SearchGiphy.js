@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import GiphyImage from "./GiphyImage";
 import axios from "axios";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 
 class SearchGiphy extends React.Component {
   state = {
